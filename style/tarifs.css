@@ -1,36 +1,87 @@
-
 table {
-    color: white;
-    text-align: center;
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  td,
-  th {
-    padding: 15px;
-    border: 1px solid #a5b4fc;
-  }
-  
-  td {
-    padding: 80px;
-  }
+  color: white;
+  text-align: center;
+  width: 80%;
+  border-collapse: collapse;
+  margin: auto;
+  margin-bottom: 100px;
+}
 
-  h2 {
-    margin-bottom: 80px;
-  }
-  
-  h1,
-  h2 {
-    text-align: center;
-  }
+td,
+th {
+  padding: 15px;
+  border: 1px solid #a5b4fc;
+}
 
-  .section-tarifs h2 {
-    color: #a5b4fc;
-  }
+td {
+  padding: 80px;
+}
 
-  @media screen and (max-width: 996px) {
-    .section-tarifs {
-      display: none;
-    }
+h2 {
+  margin-bottom: 80px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.tarifs h2 {
+  color: #a5b4fc;
+}
+
+@media screen and (max-width: 996px) {
+  .tarifs {
+    display: none;
   }
+}
+
+.haut-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 60px;
+}
+
+.flex-tarifs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  gap: 80px;
+}
+
+.flex-tarifs h2 {
+  color: #a5b4fc;
+  text-align: left;
+}
+
+.flex-tarifs p {
+  font-size: 1em;
+}
+
+.shooting-photo {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+}
+
+.retouches {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+}
+
+.album-photos {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+}
+
+.section-studio h1 {
+  text-align: left;
+  margin-left: 180px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  color: #a5b4fc;
+}
